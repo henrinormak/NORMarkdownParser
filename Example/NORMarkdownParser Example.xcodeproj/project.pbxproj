@@ -73,6 +73,7 @@
 		8ED3261F19B25D2F00F72A51 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = ../../hoedown/src/version.h; sourceTree = "<group>"; };
 		8ED3262B19B2922900F72A51 /* NORMarkdownStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NORMarkdownStyle.h; path = ../../NORMarkdownParser/NORMarkdownStyle.h; sourceTree = "<group>"; };
 		8ED3262C19B2922900F72A51 /* NORMarkdownStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NORMarkdownStyle.m; path = ../../NORMarkdownParser/NORMarkdownStyle.m; sourceTree = "<group>"; };
+		8ED3262E19B534DA00F72A51 /* NORMarkdown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NORMarkdown.h; path = ../../NORMarkdownParser/NORMarkdown.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +156,7 @@
 		8ED3260F19B25CB900F72A51 /* NORMarkdownParser */ = {
 			isa = PBXGroup;
 			children = (
+				8ED3262E19B534DA00F72A51 /* NORMarkdown.h */,
 				8ED3260C19B25C5E00F72A51 /* NORMarkdownParser.h */,
 				8ED3260D19B25C5E00F72A51 /* NORMarkdownParser.m */,
 				8ED3262B19B2922900F72A51 /* NORMarkdownStyle.h */,
