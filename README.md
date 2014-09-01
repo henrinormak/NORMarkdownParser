@@ -21,7 +21,7 @@ The project is very much in progress:
 1. The parser needs tests, along with a multitude of examples
 2. The parser could introduce a new extension for emoticon/emoji, something like `:smile:`, this would most likely require forking hoedown
 
-Pull requests for above of others are very welcome.
+Pull requests for above or for other features/fixes are very welcome.
 
 Contact
 -------
