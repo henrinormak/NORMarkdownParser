@@ -1,9 +1,17 @@
 NORMarkdownParser
 =================
 
-A lightweight wrapper around the [hoedown](https://github.com/hoedown/hoedown) Markdown parser, turning Markdown into NSAttributedString. The biggest difference between NORMarkdownParser and other parsers out there is the way the resulting string is stored. While other parsers tend to produce HTML strings, NORMarkdownParser results in a native NSAttributedString along with a stripped version of the string, making it more suitable for use in user interfaces that don't necessarily know how to render HTML (UILabel, UITextField etc.)
+A lightweight wrapper around the [hoedown](https://github.com/hoedown/hoedown) Markdown parser, turning Markdown into `NSAttributedString`. The biggest difference between `NORMarkdownParser` and other parsers out there is the way the resulting string is stored. While other parsers tend to produce HTML strings, `NORMarkdownParser` results in a native `NSAttributedString` along with a stripped version of the string, making it more suitable for use in user interfaces that don't necessarily know how to render HTML (`UILabel`, `UITextField` any custom controls etc.)
 
-NORMarkdownParser currently supports a limited subset of Markdown, more suitable for simpler applications that don't want/need to support the full extent of Markdown.
+`NORMarkdownParser` currently supports a limited subset of Markdown, more suitable for simpler applications that don't want/need to support the full extent of Markdown.
+
+Supported aspects of Markdown
+* Links (+ Autolinks as extension)
+* Emphasis (single, double, triple)
+* Underline (as an extension)
+* Strikethrough (as an extension)
+* Highlight (as an extension)
+* Code (+ Fenced blocks as an extension)
 
 Plans
 -----
