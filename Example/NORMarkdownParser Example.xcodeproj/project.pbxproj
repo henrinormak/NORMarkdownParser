@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8ED325D819B25B7300F72A51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED325D719B25B7300F72A51 /* Foundation.framework */; };
+		8ED325DA19B25B7300F72A51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED325D919B25B7300F72A51 /* CoreGraphics.framework */; };
+		8ED325DC19B25B7300F72A51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED325DB19B25B7300F72A51 /* UIKit.framework */; };
+		8ED325E419B25B7300F72A51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED325E319B25B7300F72A51 /* main.m */; };
+		8ED325E819B25B7300F72A51 /* NORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED325E719B25B7300F72A51 /* NORAppDelegate.m */; };
+		8ED325EE19B25B7300F72A51 /* NORViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED325ED19B25B7300F72A51 /* NORViewController.m */; };
+		8ED325F719B25B7300F72A51 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED325F619B25B7300F72A51 /* XCTest.framework */; };
+		8ED325F819B25B7300F72A51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED325D719B25B7300F72A51 /* Foundation.framework */; };
+		8ED325F919B25B7300F72A51 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED325DB19B25B7300F72A51 /* UIKit.framework */; };
+		8ED3260E19B25C5E00F72A51 /* NORMarkdownParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3260D19B25C5E00F72A51 /* NORMarkdownParser.m */; };
+		8ED3262019B25D2F00F72A51 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3261019B25D2F00F72A51 /* autolink.c */; };
+		8ED3262119B25D2F00F72A51 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3261219B25D2F00F72A51 /* buffer.c */; };
+		8ED3262219B25D2F00F72A51 /* document.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3261419B25D2F00F72A51 /* document.c */; };
+		8ED3262319B25D2F00F72A51 /* escape.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3261619B25D2F00F72A51 /* escape.c */; };
+		8ED3262419B25D2F00F72A51 /* html_blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3261819B25D2F00F72A51 /* html_blocks.c */; };
+		8ED3262519B25D2F00F72A51 /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3261919B25D2F00F72A51 /* html_smartypants.c */; };
+		8ED3262619B25D2F00F72A51 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3261A19B25D2F00F72A51 /* html.c */; };
+		8ED3262719B25D2F00F72A51 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3261C19B25D2F00F72A51 /* stack.c */; };
+		8ED3262819B25D3000F72A51 /* version.c in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3261E19B25D2F00F72A51 /* version.c */; };
+		8ED3262D19B2922900F72A51 /* NORMarkdownStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED3262C19B2922900F72A51 /* NORMarkdownStyle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ED325FA19B25B7300F72A51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8ED325CC19B25B7300F72A51 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ED325D319B25B7300F72A51;
+			remoteInfo = "NORMarkdownParser Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8ED325D419B25B7300F72A51 /* NORMarkdownParser Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NORMarkdownParser Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED325D719B25B7300F72A51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8ED325D919B25B7300F72A51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8ED325DB19B25B7300F72A51 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8ED325DF19B25B7300F72A51 /* NORMarkdownParser Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NORMarkdownParser Example-Info.plist"; sourceTree = "<group>"; };
+		8ED325E319B25B7300F72A51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8ED325E519B25B7300F72A51 /* NORMarkdownParser Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NORMarkdownParser Example-Prefix.pch"; sourceTree = "<group>"; };
+		8ED325E619B25B7300F72A51 /* NORAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NORAppDelegate.h; sourceTree = "<group>"; };
+		8ED325E719B25B7300F72A51 /* NORAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NORAppDelegate.m; sourceTree = "<group>"; };
+		8ED325EC19B25B7300F72A51 /* NORViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NORViewController.h; sourceTree = "<group>"; };
+		8ED325ED19B25B7300F72A51 /* NORViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NORViewController.m; sourceTree = "<group>"; };
+		8ED325F519B25B7300F72A51 /* NORMarkdownParser ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NORMarkdownParser ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ED325F619B25B7300F72A51 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8ED3260C19B25C5E00F72A51 /* NORMarkdownParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NORMarkdownParser.h; path = ../../NORMarkdownParser/NORMarkdownParser.h; sourceTree = "<group>"; };
+		8ED3260D19B25C5E00F72A51 /* NORMarkdownParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NORMarkdownParser.m; path = ../../NORMarkdownParser/NORMarkdownParser.m; sourceTree = "<group>"; };
+		8ED3261019B25D2F00F72A51 /* autolink.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = autolink.c; path = ../../hoedown/src/autolink.c; sourceTree = "<group>"; };
+		8ED3261119B25D2F00F72A51 /* autolink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = ../../hoedown/src/autolink.h; sourceTree = "<group>"; };
+		8ED3261219B25D2F00F72A51 /* buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = ../../hoedown/src/buffer.c; sourceTree = "<group>"; };
+		8ED3261319B25D2F00F72A51 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = ../../hoedown/src/buffer.h; sourceTree = "<group>"; };
+		8ED3261419B25D2F00F72A51 /* document.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = document.c; path = ../../hoedown/src/document.c; sourceTree = "<group>"; };
+		8ED3261519B25D2F00F72A51 /* document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = document.h; path = ../../hoedown/src/document.h; sourceTree = "<group>"; };
+		8ED3261619B25D2F00F72A51 /* escape.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = escape.c; path = ../../hoedown/src/escape.c; sourceTree = "<group>"; };
+		8ED3261719B25D2F00F72A51 /* escape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = escape.h; path = ../../hoedown/src/escape.h; sourceTree = "<group>"; };
+		8ED3261819B25D2F00F72A51 /* html_blocks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html_blocks.c; path = ../../hoedown/src/html_blocks.c; sourceTree = "<group>"; };
+		8ED3261919B25D2F00F72A51 /* html_smartypants.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html_smartypants.c; path = ../../hoedown/src/html_smartypants.c; sourceTree = "<group>"; };
+		8ED3261A19B25D2F00F72A51 /* html.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html.c; path = ../../hoedown/src/html.c; sourceTree = "<group>"; };
+		8ED3261B19B25D2F00F72A51 /* html.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = html.h; path = ../../hoedown/src/html.h; sourceTree = "<group>"; };
+		8ED3261C19B25D2F00F72A51 /* stack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = stack.c; path = ../../hoedown/src/stack.c; sourceTree = "<group>"; };
+		8ED3261D19B25D2F00F72A51 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stack.h; path = ../../hoedown/src/stack.h; sourceTree = "<group>"; };
+		8ED3261E19B25D2F00F72A51 /* version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = version.c; path = ../../hoedown/src/version.c; sourceTree = "<group>"; };
+		8ED3261F19B25D2F00F72A51 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = version.h; path = ../../hoedown/src/version.h; sourceTree = "<group>"; };
+		8ED3262B19B2922900F72A51 /* NORMarkdownStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NORMarkdownStyle.h; path = ../../NORMarkdownParser/NORMarkdownStyle.h; sourceTree = "<group>"; };
+		8ED3262C19B2922900F72A51 /* NORMarkdownStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NORMarkdownStyle.m; path = ../../NORMarkdownParser/NORMarkdownStyle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ED325D119B25B7300F72A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED325DA19B25B7300F72A51 /* CoreGraphics.framework in Frameworks */,
+				8ED325DC19B25B7300F72A51 /* UIKit.framework in Frameworks */,
+				8ED325D819B25B7300F72A51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED325F219B25B7300F72A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED325F719B25B7300F72A51 /* XCTest.framework in Frameworks */,
+				8ED325F919B25B7300F72A51 /* UIKit.framework in Frameworks */,
+				8ED325F819B25B7300F72A51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ED325CB19B25B7300F72A51 = {
+			isa = PBXGroup;
+			children = (
+				8ED325DD19B25B7300F72A51 /* NORMarkdownParser Example */,
+				8ED325D619B25B7300F72A51 /* Frameworks */,
+				8ED325D519B25B7300F72A51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8ED325D519B25B7300F72A51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8ED325D419B25B7300F72A51 /* NORMarkdownParser Example.app */,
+				8ED325F519B25B7300F72A51 /* NORMarkdownParser ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8ED325D619B25B7300F72A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ED325D719B25B7300F72A51 /* Foundation.framework */,
+				8ED325D919B25B7300F72A51 /* CoreGraphics.framework */,
+				8ED325DB19B25B7300F72A51 /* UIKit.framework */,
+				8ED325F619B25B7300F72A51 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8ED325DD19B25B7300F72A51 /* NORMarkdownParser Example */ = {
+			isa = PBXGroup;
+			children = (
+				8ED325E619B25B7300F72A51 /* NORAppDelegate.h */,
+				8ED325E719B25B7300F72A51 /* NORAppDelegate.m */,
+				8ED325EC19B25B7300F72A51 /* NORViewController.h */,
+				8ED325ED19B25B7300F72A51 /* NORViewController.m */,
+				8ED3260F19B25CB900F72A51 /* NORMarkdownParser */,
+				8ED3262919B25D3D00F72A51 /* hoedown */,
+				8ED325DE19B25B7300F72A51 /* Supporting Files */,
+			);
+			path = "NORMarkdownParser Example";
+			sourceTree = "<group>";
+		};
+		8ED325DE19B25B7300F72A51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8ED325DF19B25B7300F72A51 /* NORMarkdownParser Example-Info.plist */,
+				8ED325E319B25B7300F72A51 /* main.m */,
+				8ED325E519B25B7300F72A51 /* NORMarkdownParser Example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8ED3260F19B25CB900F72A51 /* NORMarkdownParser */ = {
+			isa = PBXGroup;
+			children = (
+				8ED3260C19B25C5E00F72A51 /* NORMarkdownParser.h */,
+				8ED3260D19B25C5E00F72A51 /* NORMarkdownParser.m */,
+				8ED3262B19B2922900F72A51 /* NORMarkdownStyle.h */,
+				8ED3262C19B2922900F72A51 /* NORMarkdownStyle.m */,
+			);
+			name = NORMarkdownParser;
+			sourceTree = "<group>";
+		};
+		8ED3262919B25D3D00F72A51 /* hoedown */ = {
+			isa = PBXGroup;
+			children = (
+				8ED3261019B25D2F00F72A51 /* autolink.c */,
+				8ED3261119B25D2F00F72A51 /* autolink.h */,
+				8ED3261219B25D2F00F72A51 /* buffer.c */,
+				8ED3261319B25D2F00F72A51 /* buffer.h */,
+				8ED3261419B25D2F00F72A51 /* document.c */,
+				8ED3261519B25D2F00F72A51 /* document.h */,
+				8ED3261619B25D2F00F72A51 /* escape.c */,
+				8ED3261719B25D2F00F72A51 /* escape.h */,
+				8ED3261819B25D2F00F72A51 /* html_blocks.c */,
+				8ED3261919B25D2F00F72A51 /* html_smartypants.c */,
+				8ED3261A19B25D2F00F72A51 /* html.c */,
+				8ED3261B19B25D2F00F72A51 /* html.h */,
+				8ED3261C19B25D2F00F72A51 /* stack.c */,
+				8ED3261D19B25D2F00F72A51 /* stack.h */,
+				8ED3261E19B25D2F00F72A51 /* version.c */,
+				8ED3261F19B25D2F00F72A51 /* version.h */,
+			);
+			name = hoedown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8ED325D319B25B7300F72A51 /* NORMarkdownParser Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED3260619B25B7300F72A51 /* Build configuration list for PBXNativeTarget "NORMarkdownParser Example" */;
+			buildPhases = (
+				8ED325D019B25B7300F72A51 /* Sources */,
+				8ED325D119B25B7300F72A51 /* Frameworks */,
+				8ED325D219B25B7300F72A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NORMarkdownParser Example";
+			productName = "NORMarkdownParser Example";
+			productReference = 8ED325D419B25B7300F72A51 /* NORMarkdownParser Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8ED325F419B25B7300F72A51 /* NORMarkdownParser ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8ED3260919B25B7300F72A51 /* Build configuration list for PBXNativeTarget "NORMarkdownParser ExampleTests" */;
+			buildPhases = (
+				8ED325F119B25B7300F72A51 /* Sources */,
+				8ED325F219B25B7300F72A51 /* Frameworks */,
+				8ED325F319B25B7300F72A51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8ED325FB19B25B7300F72A51 /* PBXTargetDependency */,
+			);
+			name = "NORMarkdownParser ExampleTests";
+			productName = "NORMarkdownParser ExampleTests";
+			productReference = 8ED325F519B25B7300F72A51 /* NORMarkdownParser ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8ED325CC19B25B7300F72A51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NOR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Henri Normak";
+				TargetAttributes = {
+					8ED325F419B25B7300F72A51 = {
+						TestTargetID = 8ED325D319B25B7300F72A51;
+					};
+				};
+			};
+			buildConfigurationList = 8ED325CF19B25B7300F72A51 /* Build configuration list for PBXProject "NORMarkdownParser Example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8ED325CB19B25B7300F72A51;
+			productRefGroup = 8ED325D519B25B7300F72A51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8ED325D319B25B7300F72A51 /* NORMarkdownParser Example */,
+				8ED325F419B25B7300F72A51 /* NORMarkdownParser ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ED325D219B25B7300F72A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED325F319B25B7300F72A51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8ED325D019B25B7300F72A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED325E819B25B7300F72A51 /* NORAppDelegate.m in Sources */,
+				8ED3262119B25D2F00F72A51 /* buffer.c in Sources */,
+				8ED3262D19B2922900F72A51 /* NORMarkdownStyle.m in Sources */,
+				8ED3262319B25D2F00F72A51 /* escape.c in Sources */,
+				8ED3262419B25D2F00F72A51 /* html_blocks.c in Sources */,
+				8ED3262019B25D2F00F72A51 /* autolink.c in Sources */,
+				8ED3260E19B25C5E00F72A51 /* NORMarkdownParser.m in Sources */,
+				8ED3262719B25D2F00F72A51 /* stack.c in Sources */,
+				8ED325E419B25B7300F72A51 /* main.m in Sources */,
+				8ED3262619B25D2F00F72A51 /* html.c in Sources */,
+				8ED325EE19B25B7300F72A51 /* NORViewController.m in Sources */,
+				8ED3262819B25D3000F72A51 /* version.c in Sources */,
+				8ED3262219B25D2F00F72A51 /* document.c in Sources */,
+				8ED3262519B25D2F00F72A51 /* html_smartypants.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED325F119B25B7300F72A51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8ED325FB19B25B7300F72A51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ED325D319B25B7300F72A51 /* NORMarkdownParser Example */;
+			targetProxy = 8ED325FA19B25B7300F72A51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8ED3260419B25B7300F72A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8ED3260519B25B7300F72A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8ED3260719B25B7300F72A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NORMarkdownParser Example/NORMarkdownParser Example-Prefix.pch";
+				INFOPLIST_FILE = "NORMarkdownParser Example/NORMarkdownParser Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8ED3260819B25B7300F72A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NORMarkdownParser Example/NORMarkdownParser Example-Prefix.pch";
+				INFOPLIST_FILE = "NORMarkdownParser Example/NORMarkdownParser Example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8ED3260A19B25B7300F72A51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NORMarkdownParser Example.app/NORMarkdownParser Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NORMarkdownParser Example/NORMarkdownParser Example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NORMarkdownParser ExampleTests/NORMarkdownParser ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8ED3260B19B25B7300F72A51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NORMarkdownParser Example.app/NORMarkdownParser Example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NORMarkdownParser Example/NORMarkdownParser Example-Prefix.pch";
+				INFOPLIST_FILE = "NORMarkdownParser ExampleTests/NORMarkdownParser ExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8ED325CF19B25B7300F72A51 /* Build configuration list for PBXProject "NORMarkdownParser Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED3260419B25B7300F72A51 /* Debug */,
+				8ED3260519B25B7300F72A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED3260619B25B7300F72A51 /* Build configuration list for PBXNativeTarget "NORMarkdownParser Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED3260719B25B7300F72A51 /* Debug */,
+				8ED3260819B25B7300F72A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8ED3260919B25B7300F72A51 /* Build configuration list for PBXNativeTarget "NORMarkdownParser ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8ED3260A19B25B7300F72A51 /* Debug */,
+				8ED3260B19B25B7300F72A51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8ED325CC19B25B7300F72A51 /* Project object */;
+}
