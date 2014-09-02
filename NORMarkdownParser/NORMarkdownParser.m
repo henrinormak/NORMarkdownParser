@@ -185,6 +185,9 @@ int parser_strikethrough(hoedown_buffer *ob, const hoedown_buffer *text, void *o
 }
 
 - (NSAttributedString *)attributedStringFromMarkdown:(NSString *)markdown strippedString:(NSString **)stripped {
+    if ([markdown length] == 0)
+        return nil;
+    
     // Create the state that will be passed along
     NORMarkdownParserState *state = [[NORMarkdownParserState alloc] init];
     state.style = self.style;
@@ -237,6 +240,9 @@ int parser_strikethrough(hoedown_buffer *ob, const hoedown_buffer *text, void *o
 }
 
 - (NSString *)strippedStringFromMarkdown:(NSString *)markdown {
+    if ([markdown length] == 0)
+        return nil;
+    
     // Create necessary buffers
     const char * bytes = [markdown UTF8String];
     hoedown_buffer *input;
