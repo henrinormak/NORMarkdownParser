@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NORMarkdownParser"
-  s.version      = "0.1"
+  s.version      = "0.1.1"
   s.summary      = "A simple Markdown to NSAttributedString parser using hoedown"
 
   s.description  = <<-DESC
