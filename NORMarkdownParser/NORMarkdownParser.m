@@ -353,7 +353,12 @@ int parser_autolink(hoedown_buffer *ob, const hoedown_buffer *lb, enum hoedown_a
         // Add the link to the strings
         [state.currentRawString appendString:link];
         [state.currentString appendAttributedString:[state.style baseAttributedStringWithString:link]];
-        [state.style addLinkWithURL:url title:link toRange:NSMakeRange(length, [link length]) inAttributedString:state.currentString];
+        
+        // Only pass in the URL adding if there is a URL to be added
+        // (a precaution against potential links that hoedown detects, but NSURL can't resolve)
+        if (url) {
+            [state.style addLinkWithURL:url title:link toRange:NSMakeRange(length, [link length]) inAttributedString:state.currentString];
+        }
     }
     
     hoedown_buffer_put(ob, lb->data, lb->size);
