@@ -385,7 +385,7 @@ int parser_link(hoedown_buffer *ob, const hoedown_buffer *link, const hoedown_bu
         }
         
         NSRange range = [state.currentRawString rangeOfString:contentString options:NSBackwardsSearch | NSAnchoredSearch];
-        if (range.location != NSNotFound)
+        if (url && range.location != NSNotFound)
             [state.style addLinkWithURL:url title:titleString toRange:range inAttributedString:state.currentString];
     }
     
