@@ -19,7 +19,7 @@ Plans
 The project is very much in progress:
 
 1. The parser needs tests, along with a multitude of examples
-2. The parser could introduce a new extension for emoticon/emoji, something like `:smile:`, this would most likely require forking hoedown
+2. The parser could introduce a new extension for emoticon/emoji, something like `:smile:`, this would most likely require forking hoedown. Plan would be to support [this approach to emoji](http://www.emoji-cheat-sheet.com), meaning the parser would by default detect the emoji and the style would replace the code with the UTF representation, similar to what GitHub and the others do.
 
 Pull requests for above or for other features/fixes are very welcome.
 
