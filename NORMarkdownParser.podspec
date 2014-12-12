@@ -18,6 +18,5 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
   s.requires_arc = true
 
-  s.header_dir = ''
   s.source_files = 'hoedown/**/*.{h,c}', 'NORMarkdownParser/*.{h,m}'
 end
